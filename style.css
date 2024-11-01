@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(240, 211, 148, 1);
+
+    font-family: 'Itim', sans-serif;
+}
+
+.topo {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(252, 225, 150, 1);
+    height: 90px;
+
+}
+
+.logo {
+    padding-left: 3em;
+    font-size: 0.6em;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.direita {
+    width: 550px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.phone {
+
+    width: 35px;
+}
+
+.folder {
+
+    width: 35px;
+}
+
+.house {
+
+    width: 35px;
+}
+
+.book {
+
+    width: 35px;
+}
+
+#icons {
+    width: 400px;
+    left: 67vw;
+    bottom: 46.7vw;
+    position: absolute;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#texts {
+    top: 3vw;
+    left: 68.5vw;
+    font-family: 'Itim', sans-serif;
+    position: absolute;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+
+}
+
+
+#lar {
+
+    position: absolute;
+    left: 0.5vw;
+
+}
+
+
+#sobre {
+
+    position: absolute;
+    left: 4.95vw;
+
+}
+
+#projetos {
+    position: absolute;
+    right: 7vw;
+}
+
+#contato {
+
+    position: absolute;
+    left: 15.2vw;
+
+}
+.intro2 {
+    position: absolute;
+    left: 7em;
+    bottom: 44em;
+    background-color: rgba(245, 226, 172, 1);
+    width: 40em;
+    height: 4em;
+    border-radius: 30px;
+    text-align: center;
+}
+.ptext {
+    position: absolute;
+    left: 30em;
+    top: 22em;
+    margin-left: 1.85vw;
+    margin-top: 0.85vw;
+    background-color: rgba(245, 226, 172, 1);
+    width: 17.8em;
+    height: 3em;
+    border-radius: 18px;
+
+}
+
+.ptextcss {
+    padding-top: 0.2em;
+    padding-left: 1.2em;
+    font-size: 1.7em;
+    
+}
+
+.instagram {
+    width: 50px;
+    padding-left: 1em;
+}
+
+.github {
+    width: 50px;
+    padding-left: 1em;
+}
+
+.linkedin {
+    width: 50px;
+    padding-left: 1em;
+}
+
+.posicao_rodape {
+    position: absolute;
+    top: 1em;
+    left: 107em
+}
+#rodapé {
+    width: 120em;
+    height: 4.7em;
+    background-color: rgba(252, 225, 150, 1);
+    position: absolute;
+    bottom: 0.1em;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#muie{
+    position: absolute;
+    bottom: 25em;
+    left: 10em;
+}
+#tabela{
+    position: absolute;
+    bottom: 9em;
+    left: 10em;
+}
+.ptext2 {
+    position: absolute;
+    left: 30em;
+    bottom: 19em;
+    margin-left: 1.85vw;
+    margin-top: 0.85vw;
+    background-color: rgba(245, 226, 172, 1);
+    width: 17.8em;
+    height: 3em;
+    border-radius: 18px;
+
+}
+
+.ptextcss2 {
+    padding-top: 0.2em;
+    padding-left: 1.2em;
+    font-size: 1.7em;
+    
+}
+
+#shop{
+    position: absolute;
+    bottom: 25em;
+    left: 60em;
+}
+.ptext3 {
+    position: absolute;
+    left: 80em;
+    bottom: 35em;
+    margin-left: 1.85vw;
+    margin-top: 0.85vw;
+    background-color: rgba(245, 226, 172, 1);
+    width: 17.8em;
+    height: 3em;
+    border-radius: 18px;
+
+}
+
+.ptextcss3 {
+    padding-top: 0.2em;
+    padding-left: 1.2em;
+    font-size: 1.7em;
+    
+}

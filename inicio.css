@@ -1,0 +1,249 @@
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+
+   body {
+       background-color: rgba(240, 211, 148, 1);
+
+       font-family: 'Itim', sans-serif;
+   }
+
+   .topo {
+       font-size: 25px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background-color: rgba(252, 225, 150, 1);
+       height: 90px;
+   }
+
+   .logo {
+       padding-left: 3em;
+       font-size: 0.6em;
+   }
+
+   .esquerda {
+       display: flex;
+       align-items: center;
+
+
+   }
+
+   .direita {
+       width: 550px;
+       height: 75px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+
+   }
+
+   .phone {
+
+       width: 35px;
+   }
+
+   .folder {
+
+       width: 35px;
+   }
+
+   .house {
+
+       width: 35px;
+   }
+
+   .book {
+
+       width: 35px;
+   }
+
+   #icons {
+       width: 400px;
+       left: 67vw;
+       bottom: 46.7vw;
+       position: absolute;
+       height: 50px;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+
+   }
+
+   #texts {
+       top: 3vw;
+       left: 68.5vw;
+       font-family: 'Itim', sans-serif;
+       position: absolute;
+       align-items: center;
+       width: 400px;
+       height: 50px;
+
+   }
+
+
+   #lar {
+
+       position: absolute;
+       left: 0.5vw;
+
+   }
+
+
+   #sobre {
+
+       position: absolute;
+       left: 4.95vw;
+
+   }
+
+   #projetos {
+       position: absolute;
+       right: 7vw;
+   }
+
+   #contato {
+
+       position: absolute;
+       left: 15.2vw;
+
+   }
+
+   .intro {
+       margin-left: 9.85vw;
+       margin-top: 6.85vw;
+       background-color: rgba(245, 226, 172, 1);
+       width: 40em;
+       height: 16em;
+       border-radius: 30px;
+       text-align: center;
+   }
+
+   .intro p {
+       font-size: 3.5em;
+   }
+
+   .intro h1 {
+       padding: 0.765em;
+       font-size: 3em;
+   }
+
+   .ptext {
+       position: absolute;
+       left: 70em;
+       top: 13.5em;
+       margin-left: 1.85vw;
+       margin-top: 0.85vw;
+       background-color: rgba(245, 226, 172, 1);
+       width: 40.8em;
+       height: 17em;
+       border-radius: 18px;
+
+   }
+
+   .ptextcss {
+       padding-top: 0.7em;
+       padding-left: 1em;
+       font-size: 2.7em;
+   }
+
+   div img {
+       left: 72.7em;
+       width: 40em;
+       position: absolute;
+       top: 39em;
+   }
+
+   /* From Uiverse.io by vinodjangid07 */
+
+   .submitBtn {
+       width: 8em;
+       height: 2em;
+       border-radius: 30px;
+       border: none;
+       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);
+       display: flex;
+       align-items: center;
+       justify-content: left;
+       padding-left: 1em;
+       margin: 0.5em;
+       gap: 8px;
+       font-weight: 800;
+       font-size: 2em;
+       font-family: 'Itim', sans-serif;
+       cursor: pointer;
+       color: black;
+       background: rgba(255, 220, 122, 1);
+       letter-spacing: 0.7px;
+   }
+
+
+
+   .submitBtn:hover .arrow {
+       animation: slide-in-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   }
+
+   @keyframes slide-in-left {
+       0% {
+           transform: translateX(-10px);
+           opacity: 0;
+       }
+
+       100% {
+           transform: translateX(0px);
+           opacity: 1;
+       }
+   }
+
+   .submitBtn:active {
+       transform: scale(0.97);
+   }
+
+   #posicionamento {
+       position: absolute;
+       left: 13em;
+       bottom: 5em;
+
+   }
+
+   #rodapé {
+       width: 120em;
+       height: 4.7em;
+       background-color: rgba(252, 225, 150, 1);
+       position: absolute;
+       bottom: 0.1em;
+       margin: 0;
+       padding: 0;
+   }
+
+   .instagram {
+       width: 50px;
+       padding-left: 1em;
+   }
+
+   .github {
+       width: 50px;
+       padding-left: 1em;
+   }
+
+   .linkedin {
+       width: 50px;
+       padding-left: 1em;
+   }
+
+   .posicao_rodape {
+       position: absolute;
+       top: 1em;
+       left: 107em;
+
+
+   }
+
+   a{
+    text-decoration: none;
+    color: black;
+   }
+
+   

@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(240, 211, 148, 1);
+
+    font-family: 'Itim', sans-serif;
+}
+
+.topo {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(252, 225, 150, 1);
+    height: 90px;
+
+}
+
+.logo {
+    padding-left: 3em;
+    font-size: 0.6em;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.direita {
+    width: 550px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.phone {
+
+    width: 35px;
+}
+
+.folder {
+
+    width: 35px;
+}
+
+.house {
+
+    width: 35px;
+}
+
+.book {
+
+    width: 35px;
+}
+
+#icons {
+    width: 400px;
+    left: 67vw;
+    bottom: 46.7vw;
+    position: absolute;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#texts {
+    top: 3vw;
+    left: 68.5vw;
+    font-family: 'Itim', sans-serif;
+    position: absolute;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+
+}
+
+
+#lar {
+
+    position: absolute;
+    left: 0.5vw;
+
+}
+
+
+#sobre {
+
+    position: absolute;
+    left: 4.95vw;
+
+}
+
+#projetos {
+    position: absolute;
+    right: 7vw;
+}
+
+#contato {
+
+    position: absolute;
+    left: 15.2vw;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.instagram {
+    width: 50px;
+    padding-left: 1em;
+}
+
+.github {
+    width: 50px;
+    padding-left: 1em;
+}
+
+.linkedin {
+    width: 50px;
+    padding-left: 1em;
+}
+
+.posicao_rodape {
+    position: absolute;
+    top: 1em;
+    left: 107em
+}
+
+#rodapé {
+    width: 120em;
+    height: 4.7em;
+    background-color: rgba(252, 225, 150, 1);
+    position: absolute;
+    bottom: 0.1em;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(240, 211, 148, 1);
+    position: absolute;
+    left: 30em;
+    bottom: 20em;
+    border-radius: 10px;
+    width: 40em;
+   
+}
+
+.tite {
+    background-color: #F5E2AC;
+    color: #000;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+form label {
+    display: block;
+    margin-bottom: 1em;
+    color: #000;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(245, 226, 172, 1);
+}
+
+form button {
+    background-color: #F5E2AC;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 20em;
+   bottom: 0.1em
+    
+;
+
+}
+
+form button:hover {
+    background-color: #e6c587;
+}

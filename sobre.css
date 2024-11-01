@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(240, 211, 148, 1);
+
+    font-family: 'Itim', sans-serif;
+}
+
+.topo {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(252, 225, 150, 1);
+    height: 90px;
+
+}
+
+.logo {
+    padding-left: 3em;
+    font-size: 0.6em;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.direita {
+    width: 550px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.phone {
+
+    width: 35px;
+}
+
+.folder {
+
+    width: 35px;
+}
+
+.house {
+
+    width: 35px;
+}
+
+.book {
+
+    width: 35px;
+}
+
+#icons {
+    width: 400px;
+    left: 67vw;
+    bottom: 45.8vw;
+    position: absolute;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#texts {
+    top: 3vw;
+    left: 68.5vw;
+    font-family: 'Itim', sans-serif;
+    position: absolute;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+
+}
+
+
+#lar {
+
+    position: absolute;
+    left: 0.5vw;
+
+}
+
+
+#sobre {
+
+    position: absolute;
+    left: 4.95vw;
+
+}
+
+#projetos {
+    position: absolute;
+    right: 7vw;
+}
+
+#contato {
+
+    position: absolute;
+    left: 15.2vw;
+
+}
+
+.intro2 {
+    position: absolute;
+    left: 7em;
+    bottom: 44em;
+    background-color: rgba(245, 226, 172, 1);
+    width: 45em;
+    height: 5em;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+.ptext2 {
+    position: absolute;
+    left: 7em;
+    top: 16.5em;
+    background-color: rgba(245, 226, 172, 1);
+    width: 49.3em;
+    height: 36.7em;
+    border-radius: 18px;
+
+
+}
+
+.ptextcss2 {
+    padding-top: 0.7em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 2.2em;
+    text-align: justify;
+
+}
+
+#rodapé {
+    width: 120em;
+    height: 4.7em;
+    background-color: rgba(252, 225, 150, 1);
+    position: absolute;
+    bottom: 0.1em;
+    margin: 0;
+    padding: 0;
+}
+
+.instagram {
+    width: 50px;
+    padding-left: 1em;
+}
+
+.github {
+    width: 50px;
+    padding-left: 1em;
+}
+
+.linkedin {
+    width: 50px;
+    padding-left: 1em;
+}
+
+.posicao_rodape {
+    position: absolute;
+    top: 1em;
+    left: 107em;
+
+
+}
+
+#euzin {
+    position: relative;
+    left: 95em;
+    top: 17.5em;
+
+}
+
+   a{
+    text-decoration: none;
+    color: black;
+   }
